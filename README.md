@@ -40,6 +40,7 @@ MySQL 8.0
 Nginx 最新版
 
 ER図
+![ER図](er.png)
 
 URL
 
