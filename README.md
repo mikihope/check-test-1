@@ -1,7 +1,9 @@
-Attendance Management
-環境構築
+# Attendance Management
 
-1. Docker ビルド
+## 環境構築
+
+### 1. Docker ビルド
+
 docker compose up -d --build
 
 2. コンテナに入る
@@ -13,9 +15,7 @@ composer install
 4. .env 作成
 cp .env.example .env
 
-
 .env の設定例（DB接続）
-
 DB_CONNECTION=mysql
 DB_HOST=third-mysql
 DB_PORT=3306
@@ -39,10 +39,11 @@ MySQL 8.0
 
 Nginx 最新版
 
-ER図
+## ER図
 ![ER図](er.png)
 
-URL
+---
 
-開発環境: http://localhost:8080/
-管理画面: http://localhost:8080/admin/contacts
+## URL
+- 開発環境: <http://localhost:8080/>  
+- 管理画面: <http://localhost:8080/admin/contacts>
